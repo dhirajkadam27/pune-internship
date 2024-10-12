@@ -1,0 +1,17 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: #f9f6f2;
+}
+
+input[type="date"]{
+  &:before{
+    content: 'Date';
+  }
+}
+
+input[type="time"]{
+  &:before{
+    content: 'Time';
+  }
+}

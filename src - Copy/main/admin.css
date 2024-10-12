@@ -1,0 +1,114 @@
+.main_admin_page {
+    .Title2 {
+      font-size: 25px;
+      font-weight: 600;
+      font-family: "Playfair Display", serif;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      margin-left: 30px;
+    }
+  
+    .boxes {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0px 20px;
+    }
+  
+    .box {
+      width: 50%;
+      max-width: 150px;
+      display: block;
+      margin: 20px 10px;
+      text-decoration: none;
+      color: black;
+    }
+    .box:hover {
+      opacity: 0.7;
+    }
+    .box:active {
+      opacity: 0.7;
+    }
+  
+    .box img {
+      width: 100%;
+    }
+  
+    .box .sitename {
+      font-size: 15px;
+      font-weight: 500;
+      margin-top: 5px;
+    }
+  
+    .Tabs {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      padding: 0px 20px;
+      width: calc(100% - 40px);
+      flex-wrap: wrap;
+    }
+    .Tabs li {
+      border-bottom: 2px solid transparent;
+      padding-bottom: 5px;
+      outline: none;
+      margin: 10px;
+      cursor: pointer;
+    }
+  
+    .tab {
+      font-size: 15px;
+      font-weight: 400;
+    }
+    .react-tabs__tab--selected {
+      border-bottom: 2px solid #458af0 !important;
+    }
+  
+    .save {
+      width: 90%;
+      margin: 10px auto;
+    }
+  
+    .save input {
+      width: 95%;
+      font-size: 15px;
+      margin: 10px 0px;
+      padding: 5px;
+    }
+    img[src='data:image/jpg;charset=utf8;base64,']{
+      display: none;
+    }
+    .save button {
+      font-size: 15px;
+      border: none;
+      background: #458af0;
+      padding: 10px 15px;
+      color: white;
+      margin-top: 10px;
+    }
+    .save .label{
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+    .save img {
+      width: 200px;
+      height: 200px;
+      border: 1px solid black;
+    }
+
+    .loader {
+      width: 100%;
+      height: 100vh;
+      background: #0000004a;
+      position: fixed;
+      left: 0;
+      top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .loader img {
+      width: 35px;
+  }
+  }
+  

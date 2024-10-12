@@ -1,0 +1,21 @@
+.admin_splash_page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .logo {
+      font-size: 45px;
+      font-weight: 800;
+      text-align: center;
+      color: #458af0;
+    }
+  
+    .logotype {
+      font-size: 30px;
+      margin-left: 5px;
+      color: #555555;
+      margin-top: 10px;
+    }
+  }
+  
